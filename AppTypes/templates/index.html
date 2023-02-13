@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Table Values</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>City</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+          <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
