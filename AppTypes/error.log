@@ -1,0 +1,24 @@
+2023-02-14 12:43:30 INFO: The URL we are accessing is http://reqres200.in/api/users/2
+2023-02-14 12:43:30 DEBUG: Starting new HTTP connection (1): reqres200.in:80
+2023-02-14 12:43:30 ERROR: The API request failed.
+2023-02-14 12:44:58 INFO: The URL we are accessing is http://reqres.in/api/users/2
+2023-02-14 12:44:58 DEBUG: Starting new HTTP connection (1): reqres.in:80
+2023-02-14 12:44:58 DEBUG: http://reqres.in:80 "GET /api/users/2 HTTP/1.1" 301 None
+2023-02-14 12:44:58 DEBUG: Starting new HTTPS connection (1): reqres.in:443
+2023-02-14 12:44:59 DEBUG: https://reqres.in:443 "GET /api/users/2 HTTP/1.1" 200 None
+2023-02-14 12:44:59 INFO: The user details were successfully retrieved
+2023-02-14 12:54:00 INFO: The URL we are accessing is http://reqres.incom/api/users/2
+2023-02-14 12:54:00 DEBUG: Starting new HTTP connection (1): reqres.incom:80
+2023-02-15 12:54:00 ERROR: The API request failed.
+2023-02-14 18:23:49 INFO: The URL we are accessing is http://reqres.incom/api/users/2
+2023-02-14 18:23:50 DEBUG: Starting new HTTP connection (1): reqres.incom:80
+2023-02-14 19:33:43 INFO: The URL we are accessing is http://reqres.incom/api/users/2
+2023-02-14 19:33:43 DEBUG: Starting new HTTP connection (1): reqres.incom:80
+2023-02-14 19:35:15 INFO: The URL we are accessing is http://reqres.incom/api/users/2
+2023-02-14 19:35:15 DEBUG: Starting new HTTP connection (1): reqres.incom:80
+2023-02-14 19:37:02 INFO: The URL we are accessing is http://reqres.incom/api/users/2
+2023-02-14 19:37:02 DEBUG: Starting new HTTP connection (1): reqres.incom:80
+2023-02-14 19:37:02 ERROR: The API request failed.
+2023-02-14 20:29:11 INFO: The URL we are accessing is http://reqres.incom/api/users/2
+2023-02-14 20:29:11 DEBUG: Starting new HTTP connection (1): reqres.incom:80
+2023-02-14 20:29:11 ERROR: The API request failed. Error Details: HTTPConnectionPool(host='reqres.incom', port=80): Max retries exceeded with url: /api/users/2 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc1f0859460>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))

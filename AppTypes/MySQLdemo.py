@@ -1,18 +1,20 @@
 import mysql.connector
-import logging
 
-# configure the root logger to write to a file and console
-logging.basicConfig(filename='example.log', level=logging.DEBUG,
-                    format='%(asctime)s %(levelname)s: %(message)s',
-                    datefmt='%Y-%m-%d %H:%M:%S')
-console = logging.StreamHandler()
-console.setLevel(logging.INFO)
-console.setFormatter(logging.Formatter('%(levelname)s: %(message)s'))
-logging.getLogger().addHandler(console)
+
+# import logging
+
+# # configure the root logger to write to a file and console
+# logging.basicConfig(filename='example.log', level=logging.DEBUG,
+#                     format='%(asctime)s %(levelname)s: %(message)s',
+#                     datefmt='%Y-%m-%d %H:%M:%S')
+# console = logging.StreamHandler()
+# console.setLevel(logging.INFO)
+# console.setFormatter(logging.Formatter('%(levelname)s: %(message)s'))
+# logging.getLogger().addHandler(console)
 
 
 # log messages at different levels
-logging.info('Starting to establish connection to MariaDB')
+# logging.info('Starting to establish connection to MariaDB')
 
 
 # establish a connection to the MySQL server
